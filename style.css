@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Content Box */
+  .content-box {
+    background: white;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Profile Image */
+  .profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph */
+  p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff; 
+    color: rgb(7, 7, 7);
+    margin-top: 180px;
+  }
+  
+  /* FORM (for contact page) */
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
