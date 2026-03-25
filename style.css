@@ -92,8 +92,8 @@ body {
     cursor: pointer;
   }
 
-  /* Animated top border */
-.content-box {
+ /* Animated top border */
+ .content-box {
     background: white;
     width: 500px;
     padding: 50px;
